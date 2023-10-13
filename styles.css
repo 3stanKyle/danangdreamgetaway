@@ -384,6 +384,60 @@ body {
     color: inherit;
 }
 
+.contact-section {
+    position: relative;
+    background-image: url('https://newsabalita.files.wordpress.com/2023/10/contact_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contact-heading {
+    font-size: 40px;
+    font-weight: 400;
+    color: #a88b58;
+    margin: auto; /* Center-align the text within the container */
+    margin-top: 40px;
+    text-align: center; /* Optionally, set the text alignment to left */
+}
+
+.contact-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  /* Align items to the bottom */
+    align-items: center;
+}
+
+.contact-number {
+    font-size: 48px;
+    font-weight: 400;
+    color: #564e44;
+    margin: 0 auto; /* Center-align the text within the container */
+    text-align: center; /* Optionally, set the text alignment to left */
+    margin-bottom: 10px; /* Add space below the headline */
+}
+
+.email-button {
+    display: inline-block;
+    background-image: linear-gradient(to right, #d6c28f, #a88b58, #d6c28f);
+    color: #fff;  /* Set text color to white */
+    text-decoration: none;  /* Remove underline */
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+    transition: background-image 0.3s ease; /* Smooth color transition */
+}
+
+/* Optional: hover effect to slightly change the color when hovered */
+.email-button:hover {
+    background-image: linear-gradient(to right, #d6c28f, #a88b58, #d6c28f);
+    filter: brightness(90%);
+}
 
 /* Responsive styles */
 @media (max-width: 1024px) {
